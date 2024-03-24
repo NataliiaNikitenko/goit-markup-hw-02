@@ -1,5 +1,5 @@
 body {
-    font-family:"Roboto", sans-serif;
+    font-family: "Roboto", sans-serif;
     background-color:#ffffff;
     color: #434455;
 }
@@ -14,7 +14,7 @@ a {
 
 .header-nav-logo {
     color: #4D5AE5;
-    font-family: Raleway;
+    font-family: "Raleway", sans-serif;
     font-size: 18px;
     font-weight: 700;
     line-height: 1.17;
@@ -33,7 +33,11 @@ a {
 .header-menu-link:hover {
     color: #404BBF;}
 .header-menu-link:focus {
-    color: #404BBF;}
+    color: #404BBF;
+}
+
+.address {font-style: normal
+}
 
     .header-adress-link {
     color: #434455;
@@ -48,6 +52,12 @@ letter-spacing: 0.32px;
 
 /* Hero */
 
+.sitetitle {
+    font-size: 56px;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+}
+
 .hero {
     background-color: #2E2F42; 
     color: white; 
@@ -55,7 +65,7 @@ letter-spacing: 0.32px;
 }
 .hero-button-main{
 color:#FFF;
-font-family: inherit;
+font-family: "Roboto", sans-serif;
 font-size: 16px;
 font-weight: 500;
 line-height: 1.5;
@@ -94,6 +104,7 @@ cursor: pointer;
         font-weight: 700;
         line-height: 1.11;
         letter-spacing: 0.72px;
+        text-transform: capitalize;
     }
     .team-subtitle {
         color: #2E2F42;
@@ -109,6 +120,9 @@ cursor: pointer;
         line-height: 1.5;
         letter-spacing: 0.32px;        
     }
+    .list-item {
+        background-color: #FFFFFF;
+    }
     
     /* Portfolio */
 
@@ -120,6 +134,7 @@ cursor: pointer;
         font-weight: 700;
         line-height: 1.11;
         letter-spacing: 0.72px;
+        text-transform: capitalize;
     }
     .portfolio-subtitle {
         color: #2E2F42;
@@ -144,12 +159,17 @@ cursor: pointer;
     }
     .footer-logo {
         color: #4D5AE5;
-        font-family: Raleway;
+        font-family: "Raleway", sans-serif;
         font-size: 18px;
         font-weight: 700;
         line-height: 1.17;
         letter-spacing: 0.54px;
         text-transform: uppercase;}
         .part-logo-footer {
-        color: #FFF;
+        color: #f4f4fd;
+    }
+    .footer-text {
+        line-height: 1.5;
+        color: #f4fdf5;
+        letter-spacing: 0.02em;
     }
